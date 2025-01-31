@@ -1,1 +1,2 @@
 from .dependency_installer import check_and_install_dependencies
+from .gitconfig_helper import print_aliases

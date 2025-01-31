@@ -10,5 +10,3 @@ def check_and_install_dependencies(required):
         print(f"Missing dependencies: {missing}. Installing...")
         python = sys.executable
         subprocess.check_call([python, '-m', 'pip', 'install', *missing], stdout=subprocess.DEVNULL)
-    else:
-        print("All dependencies are already installed.")
