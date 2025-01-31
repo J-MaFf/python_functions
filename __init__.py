@@ -1,0 +1,1 @@
+from .dependency_installer import check_and_install_dependencies
